@@ -6,12 +6,12 @@ calcular.addEventListener("click", () => {
 
     tabuada.innerHTML = ""
 
-    if(Number(valor.value) < 1 || Number(valor.value) > 12){
-        tabuada.innerHTML = "Insira um valor no intervalo de 1 a 12"
+    if(Number(valor.value) < 1 || Number(valor.value) > 10){
+        tabuada.innerHTML = "Insira um valor no intervalo de 1 a 10"
 
     }else{
 
-        for(i = 1; i <=12; i++){
+        for(i = 1; i <=10; i++){
 
             var calc = String(i) + " X " + valor.value + " = " + i * Number(valor.value);
 
